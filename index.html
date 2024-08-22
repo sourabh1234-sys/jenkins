@@ -1,100 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker Information</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #212121; /* Background color */
-            color: lightcream; /* Text color */
-        }
-
-        header {
-            background-color: #333;
-            color: lightcream; /* Text color */
-            padding: 1rem;
-            text-align: center;
-        }
-
-        nav {
-            margin-bottom: 1rem;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 1rem;
-        }
-
-        nav ul li a {
-            color: lightcream; /* Text color */
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #333;
-            color: lightcream; /* Text color */
-            padding: 1rem;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
-
-        p {
-            font-size: 1.2rem;
-            line-height: 1.5;
-        }
-    </style>
+	<title>Jenkins</title>
+	<style>
+		body {
+			background-color: #212121;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+		
+		nav {
+			background-color: #333;
+			color: #fff;
+			padding: 1em;
+			text-align: center;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 1em;
+			text-align: center;
+			clear: both;
+		}
+		
+		.content {
+			max-width: 800px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #f7f7f7;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.content h1 {
+			margin-top: 0;
+		}
+		
+		.content p {
+			margin-bottom: 20px;
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Docker Info Page</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div id="about">
-            <h2>About Docker</h2>
-            <p>Docker is an open-source platform that automates the deployment, scaling, and management of applications using containerization. Containers are lightweight, portable, and can run consistently across different computing environments. Docker enables developers to package applications with all their dependencies into a standardized unit called a container, which can be run on any machine that has Docker installed.</p>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Docker Information. All rights reserved.</p>
-    </footer>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<div class="content">
+		<h1>Jenkins</h1>
+		<p>Jenkins is an open-source automation server that enables developers to build, test, and deploy their applications. It provides a simple way to automate the build, test, and deployment process, making it easier to manage and maintain software projects.</p>
+		<p>Jenkins is widely used in the software industry and is known for its flexibility and customization options. It supports a wide range of plugins and integrations, making it easy to integrate with other tools and services.</p>
+		<p>Some of the key features of Jenkins include:</p>
+		<ul>
+			<li>Automated build and deployment</li>
+			<li>Continuous integration and continuous deployment (CI/CD)</li>
+			<li>Support for multiple programming languages</li>
+			<li>Extensive plugin ecosystem</li>
+			<li>Easy integration with other tools and services</li>
+		</ul>
+	</div>
+	
+	<footer>
+		<p>&copy; 2023 Jenkins</p>
+	</footer>
 </body>
 </html>
-
